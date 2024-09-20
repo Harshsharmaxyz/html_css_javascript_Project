@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New';
+}
+body{
+    background-color: rgb(250, 247, 80);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px;
+}
+.input-cointainer input{
+    border:none;
+}
